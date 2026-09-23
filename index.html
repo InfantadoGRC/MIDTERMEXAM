@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tofu Bites</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            color: #4a2c2a;
+        }
+
+        /* HEADER */
+        header {
+            background-color: #ffb6c1;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #8b4513;
+            font-size: 40px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin: 8px 0 0;
+        }
+      
+        nav {
+            background-color: #8b4513;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffb6c1;
+        }
+
+        section {
+            padding: 50px 10%;
+            min-height: 300px;
+        }
+
+        section h2 {
+            color: #d2691e;
+            border-bottom: 2px solid #f4a460;
+            padding-bottom: 8px;
+        }
+
+        section h3 {
+            color: #a0522d;
+        }
+
+        p {
+            font-size: 17px;
+            line-height: 1.7;
+        }
+      
+        #home {
+            text-align: center;
+        }
+
+        #home img {
+            width: 300px;
+            max-width: 100%;
+            border-radius: 15px;
+            border: 4px solid #f4a460;
+            margin-top: 15px;
+        }
+
+        ol, ul {
+            line-height: 2;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: white;
+        }
+
+        th {
+            background-color: #ffb6c1;
+            color: #4a2c2a;
+        }
+
+        th, td {
+            border: 1px solid #d2691e;
+            padding: 15px;
+            text-align: center;
+        }
+
+        tr:hover {
+            background-color: #fff0f5;
+        }
+
+        #about {
+            background-color: #fff0f5;
+        }
+
+        #contact {
+            text-align: center;
+        }
+
+        .contact-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            max-width: 500px;
+            margin: auto;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #d2691e;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: #8b4513;
+        }
+
+        footer {
+            background-color: #8b4513;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 30px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            section {
+                padding: 35px 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Tofu BITES</h1>
+        <p>Delicious Homemade Snacks</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home">
+
+        <h2>Welcome to Tofu Bites!</h2>
+
+        <p>
+            Tofu Bites is a small student business that offers
+            delicious, fresh, and affordable homemade snacks.
+        </p>
+
+        <img src="snacks.jpg" alt="Tofu Bites Snacks">
+
+        <h3>Why Choose Us?</h3>
+
+        <ol>
+            <li>Affordable prices</li>
+            <li>Fresh ingredients</li>
+            <li>Delicious products</li>
+            <li>Friendly service</li>
+        </ol>
+
+    </section>
+
+    <section id="products">
+
+        <h2>Our Products</h2>
+
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+
+            <tr>
+                <td>Tofu Bites</td>
+                <td>Soft, Chrunchy and delicious Tofu</td>
+                <td>₱25</td>
+            </tr>
+        </table>
+
+    </section>
+
+    <section id="about">
+
+        <h2>About Us</h2>
+
+        <p>
+            Welcome to <b>Tofu Bites!</b> We are a small student
+            business that provides delicious, fresh, and affordable
+            snacks for students, teachers..
+        </p>
+
+        <h3>Our Mission</h3>
+
+        <p>
+            Our mission is to provide tasty and affordable snacks
+            while giving our customers a friendly and enjoyable
+            experience.
+        </p>
+
+        <h3>Our Products</h3>
+
+        <ul>
+            <li>Tofu Bites</li>
+        </ul>
+
+        <h3>Why Choose Tofu Bites?</h3>
+
+        <ol>
+            <li>Affordable prices</li>
+            <li>Fresh ingredients</li>
+            <li>Delicious homemade snacks</li>
+            <li>Friendly customer service</li>
+        </ol>
+
+    </section>
+
+    <section id="contact">
+
+        <h2>Contact Us</h2>
+
+        <div class="contact-box">
+
+            <p>📧 Email: assyriasortegainfantado@gmail.com</p>
+
+            <p>📱 Facebook: Tofu Bites</p>
+
+            <p>📍 Location: Bagong Barrio City</p>
+
+            <a href="#home" class="button">Back to Home</a>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Tofu Bites. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
